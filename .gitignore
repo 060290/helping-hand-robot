@@ -1,0 +1,47 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+eggs/
+.eggs/
+
+# Environment
+.env
+.env.*
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# ROS bag files
+*.bag
+*.db3
+
+# C++ build artifacts (if ever used)
+*.o
+*.so
+*.a
+CMakeCache.txt
+CMakeFiles/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage
+.coverage
+htmlcov/
